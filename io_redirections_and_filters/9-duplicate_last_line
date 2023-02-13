@@ -1,2 +1,2 @@
 #!/bin/bash
-sed p iacta > output
+tail -1 iacta > output
