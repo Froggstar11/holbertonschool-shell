@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -printf "%f\n"
+find . \( -iname \*.png -o -iname \*.jpg -o -iname \*.gif \) -type f -empty -printf "%f\n"
